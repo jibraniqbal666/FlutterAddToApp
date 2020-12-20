@@ -1,0 +1,10 @@
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../leaf_module/.android/include_flutter.groovy'
+))
+rootProject.name = "FlutterAddToApp"
+
+include ':leaf_module'
+project(':leaf_module').projectDir = new File('../leaf_module')
