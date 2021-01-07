@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - leaf_module (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../../leaf_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../../leaf_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - leaf_module (from `../../leaf_module/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../../leaf_module/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../../leaf_module/.ios/Flutter/FlutterPluginRegistrant"
+  leaf_module:
+    :path: "../../leaf_module/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  leaf_module: 3b249949f0f15f0dbcd98523196c54c1449f4b8b
+
+PODFILE CHECKSUM: d60ce38f6fe2b4df6c727c85e8195bcd135167eb
+
+COCOAPODS: 1.10.0
